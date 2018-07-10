@@ -1,0 +1,20 @@
+diff -ru vector-algorithms-0.7.0.1.orig/vector-algorithms.cabal vector-algorithms-0.7.0.1/vector-algorithms.cabal
+--- vector-algorithms-0.7.0.1.orig/vector-algorithms.cabal	2018-07-17 17:05:09.751351843 +0800
++++ vector-algorithms-0.7.0.1/vector-algorithms.cabal	2018-07-17 17:05:25.706507594 +0800
+@@ -64,7 +64,6 @@
+     Data.Vector.Algorithms.Common
+ 
+   ghc-options:
+-    -Odph
+     -funbox-strict-fields
+ 
+   include-dirs:
+@@ -94,7 +93,7 @@
+     Blocks
+ 
+   build-depends: base, mwc-random, vector, vector-algorithms, mtl
+-  ghc-options: -Wall -Odph
++  ghc-options: -Wall
+ 
+ test-suite properties
+   hs-source-dirs: tests/properties
